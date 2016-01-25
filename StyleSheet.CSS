@@ -1,0 +1,184 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a, button {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+body, button {
+    background-color: #f6f1ed;
+    color: #30231d;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 10px;
+}
+
+h2, h3, p, ul, li {
+    margin: 5px 10px 5px 20px;
+}
+
+p, ul, li {
+    font-size: 16px;
+}
+
+h1 {
+    padding: 15px;
+    margin-left: 25px;
+}
+
+h2 {
+    margin-top: 15px;
+    margin-left: 40px;
+    font-size: 24px;
+}
+
+h3 {
+    margin-left: 40px;
+    font-size: 18px;
+}
+
+.center {
+    width: 1060px;
+    margin: auto;
+}
+
+header {
+    z-index: 1;
+    position: fixed;
+    height: 70px;
+    margin: -20px 10px 10px 0;
+    width: 1060px;
+    background-color: #b5a397;
+    border-radius: 5px;
+}
+
+#education {
+    position: relative;
+    margin: 60px 0 10px 0;
+    background-color: #a8b6bf;
+    border-radius: 5px;
+    float: left;
+    width: 550px;
+    height: 368px;
+    transition: 0.5s ease-in;
+}
+
+#education:hover {
+    background-color: #97a5ae;
+}
+
+#education p {
+    margin-left: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #6a5750;
+    text-shadow: 1px 1px #b5a397;
+    font-weight: none;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+#profile {
+    position: relative;
+    margin: 60px 0 10px 0;
+    background-color: #c2d4d8;
+    border-radius: 5px;
+    float: right;
+    width: 500px;
+    height: 368px;
+    transition: 0.5s ease-in;
+}
+
+#profile:hover {
+    background-color: #b1c3c7;
+}
+
+img {
+    height: 340px;
+    width: 235px;
+    border-radius: 5px;
+    border: 5px solid #6a5750;
+    margin: -40px 10px 10px 10px;
+    float: right;
+}
+
+main ul {
+    clear: both;
+}
+
+main {
+    position: relative;
+    border-radius: 5px;
+    margin: auto;
+    clear: both;
+    background-color: #c9d8c5;
+    width: 1060px;
+    transition: 0.5s ease-in;
+}
+
+main:hover {
+    background-color: #b8c7b4;
+}
+
+main h2 {
+    padding-top: 10px;
+}
+
+main h3 {
+    margin: 5px 50px 0 40px;
+    border-bottom: 1px dotted #6a5750;
+    padding-top: 15px;
+}
+
+.date {
+    float: right;
+    padding-right: 50px;
+    margin: 5px 0 10px 0;
+}
+
+.place {
+    margin: 5px 0 10px 40px;
+    float: left;
+}
+
+main li {
+    width: 600px;
+}
+
+main li:nth-child(5) {
+    padding-bottom: 15px;
+}
+
+footer {
+    position: relative;
+    height: 50px;
+    margin: 10px auto 10px auto;
+    width: 1060px;
+    background-color: #b5a397;
+    border-radius: 5px;
+}
+
+#contactinfo {
+    margin-left: 40px;
+    padding-top: 14px;
+}
+
+button {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  background: none;
+  border: none;
+  font-size: 50px;
+  z-index: 2;
+  font-family: 'Arvo', serif;
+}
+
+.body {
+  display: none;
+}
+
+
